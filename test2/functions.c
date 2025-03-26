@@ -67,30 +67,4 @@ int ucln(int a, int b) {
     }
     return a;
 }
-// int giaithua(int n) {
-//     if (n < 0) {
-//         printf("Loi: Khong the tinh giai thua cua so am!\n");
-//         return -1; 
-//     }
-//     if (n == 0) {
-//         return 1;
-//     } else {
-//         return n * giaithua(n - 1);
-//     }
-// }
 
-// int ucln(int a, int b) {
-//     if (a < 0 || b < 0) {
-//         printf("Loi: Khong the tinh UCLN cua so am!\n");
-//         return -1; 
-//     }
-//     if (a == 0 || b == 0) {
-//         return a + b;
-//     } else {
-//         if (a > b) {
-//             return ucln(b, a % b);
-//         } else {
-//             return ucln(a, b % a);
-//         }
-//     }
-// }
